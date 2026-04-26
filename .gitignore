@@ -1,12 +1,8 @@
 # =============================================================================
 # Environment & Secrets
 # =============================================================================
-.env
-.env.local
 .env.*.local
-.env.production
 .env.production.local
-.env.staging
 .env.test.local
 .env.development.local
 # Keep .env.example tracked (it's a template)
@@ -116,3 +112,4 @@ docker-volumes/
 .stylelintcache
 *.tgz
 *.tar.gz
+config.bat
